@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlid.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
@@ -8,6 +8,7 @@
  */
 
 int main(void)
+
 {
 	int d;
 
