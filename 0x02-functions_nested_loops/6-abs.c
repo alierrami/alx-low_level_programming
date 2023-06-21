@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * _abc - computes the absolute value of an integer.
+ * _abs - Computes the absolute value of an integer.
  * @c: The character to be checked.
  * Return: The absolute value of the integer.
  */
-int _abc(int c)
+int _abs(int c)
 {
 	if (c < 0)
 	{
-		int abc_val;
+		int value;
 
-		abc_val = c * -1;
-		return (abc_val);
+		value = c * -1;
+		return (value);
 	}
 	return (c);
 }
