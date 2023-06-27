@@ -17,7 +17,7 @@ int main(void)
 		passwors[index] = 33 + rand() % 94;
 		sum += password[index++];
 	}
-	password[index] = '\n';
+	password[index] = '\0';
 	if (sum != 2772)
 	{
 		diff_half1 = (sum - 2772) / 2;
