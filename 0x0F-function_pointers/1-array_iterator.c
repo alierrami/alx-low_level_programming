@@ -1,4 +1,4 @@
-#include "function_pointers_h"
+#include "function_pointers.h"
 #include <stdio.h>
 /**
  * array_iterator - prints each array elem on a newl
@@ -18,6 +18,8 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 		action(array[i]);
 	}
 }
+
+
 
 
 
