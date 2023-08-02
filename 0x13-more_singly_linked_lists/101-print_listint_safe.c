@@ -11,14 +11,14 @@ size_t print_listint_safe(const listint_t *head)
 
 	while (temp != NULL && temp > temp->next)
 	{
-		printf("%d\n", temp->n);
+		printf("[%s] %d\n", temp->next, temp->n);
 		node_count++;
 		temp = temp->next;
 	}
 	if (temp != NULL)
 	{
-		printf("%d\n", temp->n);
-		exit(98);
+		printf("[%s] %d\n", temp->next, 98);
+		exit;
 	}
 	return (node_count);
 }
