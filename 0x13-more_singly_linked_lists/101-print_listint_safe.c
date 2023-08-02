@@ -17,8 +17,8 @@ size_t print_listint_safe(const listint_t *head)
 	}
 	if (temp != NULL)
 	{
-		printf("-> [%p] %d\n", temp, 98);
-		exit;
+		printf("-> [%p] %d\n", temp, temp->n);
+		exit(98);
 	}
 	return (node_count);
 }
