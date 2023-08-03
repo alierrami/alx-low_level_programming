@@ -21,6 +21,7 @@ size_t free_listint_safe(listint_t **h)
 			temp = temp->next;
 			free(temp);
 			len++;
+			temp = temp->next;
 		}
 		else
 		{
